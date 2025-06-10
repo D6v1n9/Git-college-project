@@ -1,3 +1,6 @@
+# Reasources by Rasesh
+- [step by step guide on how to reset your repository to whatever you had after assignment 4](https://grok.com/share/c2hhcmQtMg%3D%3D_24263f19-b58e-4276-a1ac-76d21568ec1f)
+
 # Assignment 1 - 3
 - [claude ai](https://claude.ai/share/438e2d1c-daad-4a86-bcf8-ccff7a13dabb)
 - [GPT_ rebase and merge conflict](https://chatgpt.com/share/6845c43e-5678-8007-bcf1-65b58970dbff)
