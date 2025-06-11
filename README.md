@@ -1,5 +1,6 @@
 # Reasources by Rasesh
 - [step by step guide on how to reset your repository to whatever you had after assignment 4](https://grok.com/share/c2hhcmQtMg%3D%3D_24263f19-b58e-4276-a1ac-76d21568ec1f)
+- [git pull origin and git pull](https://grok.com/share/c2hhcmQtMg%3D%3D_3ae60b0e-3e4f-447f-aba5-d68c5fb44b60)
 
 # Resources useful for project
 - [Search filter in ReactJS](https://youtu.be/xAqCEBFGdYk?si=t2hCkrqe9DWOPmJn)
