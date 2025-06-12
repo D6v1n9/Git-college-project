@@ -9,6 +9,7 @@
 - [Communicate between components and slices](https://grok.com/share/c2hhcmQtMg%3D%3D_55373a87-c316-4605-81d2-1d90544f9d5e)
 
 # Important 
+## For Frontend
 - Dont use axios.get Instead Import axiosInstance from './api/axiosInstance.js'  And use axiosInstance.get
 
 # Assignment 1 - 3
