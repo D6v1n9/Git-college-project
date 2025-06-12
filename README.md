@@ -8,6 +8,9 @@
 - [React Data Table with Search, Sort, Pagination and Filter](https://youtu.be/JfEV1er6oqQ?si=3h7e7EyE2oTRDqWh)
 - [Communicate between components and slices](https://grok.com/share/c2hhcmQtMg%3D%3D_55373a87-c316-4605-81d2-1d90544f9d5e)
 
+# Important 
+- Dont use axios.get Instead Import axiosInstance from './api/axiosInstance.js'  And use axiosInstance.get
+
 # Assignment 1 - 3
 - [claude ai](https://claude.ai/share/438e2d1c-daad-4a86-bcf8-ccff7a13dabb)
 - [GPT_ rebase and merge conflict](https://chatgpt.com/share/6845c43e-5678-8007-bcf1-65b58970dbff)
