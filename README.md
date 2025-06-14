@@ -3,6 +3,8 @@
 - [git pull origin and git pull](https://grok.com/share/c2hhcmQtMg%3D%3D_3ae60b0e-3e4f-447f-aba5-d68c5fb44b60)
 
 # Resources useful for project
+- ### Axios Instance
+  - [Creation of file in React and using it with react redux properly](https://grok.com/share/c2hhcmQtMg%3D%3D_01063a46-6c4e-405d-a960-bc25b028638c)
 - [Search filter in ReactJS](https://youtu.be/xAqCEBFGdYk?si=t2hCkrqe9DWOPmJn)
 - [Mockaroo to generate sample data](https://www.mockaroo.com/)
 - [React Data Table with Search, Sort, Pagination and Filter](https://youtu.be/JfEV1er6oqQ?si=3h7e7EyE2oTRDqWh)
