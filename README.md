@@ -5,6 +5,11 @@
 - ### Using ESlint
   - [Eslint requirement and must be in mind how to use it on a particular file and Staged files](https://www.notion.so/ESLint-Pre-commit-Hooks-using-Husky-lint-staged-20df5f32069b80f1b18bd1dec27b24bc)
 
+- ### git reset
+    - [Gitkraken](https://www.gitkraken.com/learn/git/git-reset)
+    - [GFG](http://geeksforgeeks.org/git/whats-the-difference-between-git-reset-mixed-soft-and-hard/)
+    - [W3 school](https://www.w3schools.com/git/git_reset.asp)
+
 # Resources useful for project
 - ### Axios Instance
   - [Creation of file in React and using it with react redux properly](https://grok.com/share/c2hhcmQtMg%3D%3D_01063a46-6c4e-405d-a960-bc25b028638c)
