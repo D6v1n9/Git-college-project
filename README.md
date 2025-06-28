@@ -22,6 +22,10 @@
 ## For Frontend
 - Dont use axios.get Instead Import axiosInstance from './api/axiosInstance.js'  And use axiosInstance.get
 
+# Problem encountered
+### Done the reset deleted the local brances and also deleted from the repo branch but when did the checkout to that branch changes again propagate ho jate
+- [visit grok link](https://grok.com/share/c2hhcmQtMg%3D%3D_b730bf50-a3c5-49e7-a637-e2d9a9798b0b) To resolve the problem and understand the problem
+
 # Assignment 1 - 3
 - [claude ai](https://claude.ai/share/438e2d1c-daad-4a86-bcf8-ccff7a13dabb)
 - [GPT_ rebase and merge conflict](https://chatgpt.com/share/6845c43e-5678-8007-bcf1-65b58970dbff)
