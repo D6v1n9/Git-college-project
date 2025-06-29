@@ -7,8 +7,13 @@ git push origin assignment8-task-2
 ```
 You got this error:
 ```scss
-! [rejected] assignment8-task-2 -> assignment8-task-2 (non-fast-forward)
-error: failed to push some refs...
+To github.com:karanlodhi-iet/KaranProfile.git
+ ! [rejected]        assignment8-task-2 -> assignment8-task-2 (non-fast-forward)
+error: failed to push some refs to 'github.com:karanlodhi-iet/KaranProfile.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. If you want to integrate the remote changes,
+hint: use 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 ```
 
 ## 🔍 Why It Happened
