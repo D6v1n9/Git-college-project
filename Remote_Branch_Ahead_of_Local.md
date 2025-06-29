@@ -7,13 +7,8 @@ git push origin assignment8-task-2
 ```
 You got this error:
 ```scss
-To github.com:karanlodhi-iet/KaranProfile.git
- ! [rejected]        assignment8-task-2 -> assignment8-task-2 (non-fast-forward)
-error: failed to push some refs to 'github.com:karanlodhi-iet/KaranProfile.git'
-hint: Updates were rejected because the tip of your current branch is behind
-hint: its remote counterpart. If you want to integrate the remote changes,
-hint: use 'git pull' before pushing again.
-hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+! [rejected] assignment8-task-2 -> assignment8-task-2 (non-fast-forward)
+error: failed to push some refs...
 ```
 
 ## 🔍 Why It Happened
@@ -23,6 +18,45 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
 ## ✅ Recommended Fix: Use Rebase (Avoid Merge Commits)
 You want to reapply your local commits on top of the updated remote branch.
+
+## ✅ What `git pull --rebase origin assignment8-task-2` Does
+This command does two things:
+
+1. **Fetches the latest changes from the remote branch**:
+   - It gets updates from `origin/assignment8-task-2` (i.e., the version on GitHub).
+
+2. **Rebases your local commits on top of the updated remote branch**:
+   - Instead of merging (which creates an extra merge commit), it:
+     - "Rewinds" your local commits
+     - Applies the remote commits
+     - Then "replays" your local commits on top of them
+   - This keeps your Git history linear and clean, avoiding noisy merge commits.
+
+### 🔁 Visual Example
+Let’s say:
+- Remote branch has commits: `A → B → C`
+- Your local branch has: `A → B → X → Y`
+
+If you run:
+```bash
+git pull --rebase origin assignment8-task-2
+```
+Git will:
+- Fetch commit `C` from GitHub
+- Temporarily rewind your local commits `X → Y`
+- Apply commit `C`
+- Re-apply your commits `X` and `Y` on top of `C`
+
+So your new local history becomes:
+```nginx
+A → B → C → X' → Y'
+```
+(X' and Y' are rebased versions of your commits)
+
+### 🧠 Why Use `--rebase`?
+- Prevents merge commits from cluttering history
+- Keeps your branch linear and clean
+- Preferred for feature branches (especially in collaborative projects)
 
 ## ✅ Correct Steps
 (When your branch is `assignment8-task-2` and remote is `origin`)
