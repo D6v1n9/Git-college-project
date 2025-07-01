@@ -10,6 +10,10 @@
     - [GFG](http://geeksforgeeks.org/git/whats-the-difference-between-git-reset-mixed-soft-and-hard/)
     - [W3 school](https://www.w3schools.com/git/git_reset.asp)
 
+- ### When to use git reset vs git revert
+    - [Youtube link](https://youtu.be/GytsxgB4-HU)
+    - [Atlassin git revert](https://www.atlassian.com/git/tutorials/undoing-changes/git-revert)
+
 # Resources useful for project
 - ### Axios Instance
   - [Creation of file in React and using it with react redux properly](https://grok.com/share/c2hhcmQtMg%3D%3D_01063a46-6c4e-405d-a960-bc25b028638c)
